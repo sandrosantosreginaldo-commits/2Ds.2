@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Cine Catálogo</title>
@@ -11,7 +12,14 @@
 			<ul>
 				<li><a href="#">Início</a></li>
 				<li><a href="#">Filmes</a></li>
-				<li><a href="#">Gênero</a></li>
+				<li class="dropdown">
+					<a href="#">Gênero</a>
+					<div class="dropdown-content">
+						<a href="#">Comédia</a>
+						<a href="#">Romance</a>
+						<a href="#">Terror</a>
+					</div>
+				</li>
 				<li><a href="#">Sobre</a></li>
 			</ul>
 			<div class="pesquisa">
@@ -20,7 +28,7 @@
 		</header>
 		<main>
 			<div class="filme">
-				<img src="imagens/capa-homemaranha.jpeg">
+				<img src="imagens/brand-new-day.jpeg">
 				<div class="titulo-descricao">
 					<h1>Homem Aranha</h1>
 					<p>O filme se passa quatro anos após os eventos de Homem-Aranha: Sem Volta para Casa (2021). Agora adulto, Peter Parker vive de forma completamente solitária e anônima em Nova York, já que o mundo inteiro esqueceu sua existência real devido ao feitiço do Doutor Estranho.
@@ -31,9 +39,9 @@
 			</div>
 			<div class="disponivel">
 				<ul>
-					<li>Netflix</li>
-					<li>Prime Video</li>
-					<li>Globo Play</li>
+					<li class="btn-netflix">Netflix</li>
+					<li class="btn-prime">Prime Video</li>
+					<li class="btn-globoplay">Globo Play</li>
 				</ul>
 			</div>
 		</main>
@@ -65,4 +73,4 @@
 			<p>Copyright 2026 - Cine Catálogo.</p>
 		</footer>
 	</body>
-</html>	
+</html>
